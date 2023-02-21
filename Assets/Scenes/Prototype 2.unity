@@ -703,6 +703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 970612114}
+  - component: {fileID: 970612115}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -725,6 +726,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &970612115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970612113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a10422e443045aa8e5a430f9d556b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 8978306631918026122, guid: a08b28817e3fb4d6d8590a76ff4940c1, type: 3}
+  - {fileID: 4953329327550835032, guid: 188e016ce44b34fbc9b7b9b92d7ac610, type: 3}
+  - {fileID: 8437587043883579336, guid: b30ae87f8b36f417e867c8f01363ca48, type: 3}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,6 +830,10 @@ PrefabInstance:
     - target: {fileID: 8978306631918382044, guid: a08b28817e3fb4d6d8590a76ff4940c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978306632282932065, guid: a08b28817e3fb4d6d8590a76ff4940c1, type: 3}
+      propertyPath: speed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a08b28817e3fb4d6d8590a76ff4940c1, type: 3}
